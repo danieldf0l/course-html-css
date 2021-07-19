@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*  HTML id = # CSS
+    HTML class= . CSS*/
+body {
+    background-color: #EF709D;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(122, 0, 122)
+}
+
+h1{
+    color: #3772FF;
+}
+
+.principal{
+    color: white;
+}
+
+#unico{
+    background-color: black;
+}
+
+.basico{
+    color: #540D6E;
+}
+
+.intermediario{
+    color: #E2EF70;
+}
+
+.avançado{
+    color: #70E4EF;
+}
