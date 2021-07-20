@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+
+        div{
+            background-color: crimson;
+            color: white;
+            width: 100px;
+            text-align: center;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Utilidade de Hover</h1>
+    <p>Passe o mouse no texto no menu para ver as opções</p>
+    <div>
+        MENU
+        <p>OPÇÃO 01</p>
+        <p>OPÇÃO 02</p>
+        <p>OPÇÃO 03</p>
+        <p>OPÇÃO 04</p>
+    </div>
+</body>
+</html>
