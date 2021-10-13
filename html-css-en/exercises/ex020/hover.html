@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover exemples</title>
+</head>
+<style>
+    div{
+        background-color: blueviolet;
+        color: cornsilk;
+        width: 100px;
+        text-align: center;
+    }
+    div > p{
+        display: none;
+    }
+    div:hover > p{
+        display: block;
+    }
+</style>
+<body>
+   <h1>Hover Utility</h1> 
+   <p>Stay the mouse in the menu to see the options</p>
+   <div>
+       MENU
+       <p>Option 01</p>
+       <p>Option 02</p>
+       <p>Option 03</p>
+       <p>Option 04</p>
+   </div>
+</body>
+</html>
